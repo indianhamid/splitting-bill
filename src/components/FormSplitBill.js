@@ -9,7 +9,7 @@ function FormSplitBill({ selectedFriend, onSplitBill }) {
 
   const handleSplit = (e) => {
     e.preventDefault();
-    if (!billValue || !yourExpense) return;
+    // if (!billValue || !yourExpense) return;
     onSplitBill(whoIsPaying === "you" ? friendExpense : -yourExpense);
   };
 
