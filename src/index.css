@@ -33,6 +33,12 @@ body {
   align-items: start;
 }
 
+.app-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
 .button {
   background-color: var(--color-medium);
   color: #343a40;
